@@ -8,7 +8,7 @@ def load_data():
     Loads the DataCo CSV ﬁle and returns schema information.
     """
    
-    ﬁle_path = "data/DataCoSupplyChainDataset.csv"
+    ﬁle_path = "/data/DataCoSupplyChainDataset.csv"
 
     if not os.path.exists(ﬁle_path):
         return {
