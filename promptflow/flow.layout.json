@@ -1,0 +1,45 @@
+{
+  "orientation": "Vertical",
+  "nodeLayouts": {
+    "inputs": {
+      "x": 290,
+      "y": 42,
+      "index": -1
+    },
+    "outputs": {
+      "x": 230,
+      "y": 578,
+      "index": -1
+    },
+    "data_loader": {
+      "x": 470,
+      "y": 42,
+      "index": 0
+    },
+    "code_gen_node": {
+      "x": 140,
+      "y": 176,
+      "index": 1
+    },
+    "executor_node": {
+      "x": 140,
+      "y": 310,
+      "index": 2
+    },
+    "synthesis_node": {
+      "x": 150,
+      "y": 444,
+      "index": 3
+    }
+  },
+  "viewport": {
+    "transformMatrix": [
+      1,
+      0,
+      0,
+      1,
+      -136.84722900390625,
+      119.55557250976562
+    ]
+  }
+}

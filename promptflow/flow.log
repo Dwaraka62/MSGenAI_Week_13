@@ -1,0 +1,11 @@
+2026-01-16 10:00:44 +0000   17081 execution.flow     INFO     Start executing nodes in thread pool mode.
+2026-01-16 10:00:44 +0000   17081 execution.flow     INFO     Start to run 4 nodes with concurrency level 16.
+2026-01-16 10:00:44 +0000   17081 execution.flow     INFO     Executing node data_loader. node run id: 73fa5a81-8492-4fb3-a4f0-4122eb99278c_data_loader_0
+2026-01-16 10:00:49 +0000   17081 execution.flow     INFO     Node data_loader completes.
+2026-01-16 10:00:49 +0000   17081 execution.flow     INFO     Executing node code_gen_node. node run id: 73fa5a81-8492-4fb3-a4f0-4122eb99278c_code_gen_node_0
+2026-01-16 10:00:51 +0000   17081 execution.flow     INFO     Node code_gen_node completes.
+2026-01-16 10:00:51 +0000   17081 execution.flow     INFO     Executing node executor_node. node run id: 73fa5a81-8492-4fb3-a4f0-4122eb99278c_executor_node_0
+2026-01-16 10:00:54 +0000   17081 execution.flow     INFO     Node executor_node completes.
+2026-01-16 10:00:54 +0000   17081 execution.flow     INFO     Executing node synthesis_node. node run id: 73fa5a81-8492-4fb3-a4f0-4122eb99278c_synthesis_node_0
+2026-01-16 10:00:56 +0000   17081 execution.flow     INFO     Node synthesis_node completes.
+2026-01-16 10:01:12 +0000   17081 execution.flow     INFO     Received signal 2(SIGINT), start to exit sync flow execution.
