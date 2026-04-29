@@ -8,11 +8,8 @@ inputs:
     default: []
   question:
     type: string
-    is_chat_input: true
-outputs:
-  answer:
-    type: string
-    reference: ${chat.output}
+    is_chat_input: which regions have the highest late-delivery rates?
+   reference: ${chat.output}
     is_chat_output: true
 nodes:
 - name: data_loader
