@@ -16,6 +16,12 @@
         }
       },
       "source": "chat.jinja2"
+    },
+    "../promptflow/lkg_sources/data_loader.py": {
+      "type": "python",
+      "description": "Loads the DataCo CSV \ufb01le and returns schema information.",
+      "source": "../promptflow/lkg_sources/data_loader.py",
+      "function": "load_data"
     }
   }
 }

@@ -15,16 +15,9 @@ outputs:
     reference: ${chat.output}
     is_chat_output: true
 nodes:
-- name: chat
-  type: llm
+- name: data_loader
+  type: python
   source:
     type: code
-    path: chat.jinja2
-  inputs:
-    deployment_name: gpt-35-turbo
-    max_tokens: "256"
-    temperature: "0.7"
-    chat_history: ${inputs.chat_history}
-    question: ${inputs.question}
-  connection: open_ai_connection
-  api: chat
+    path: ../promptflow/lkg_sources/data_loader.py
+  inputs: {}
